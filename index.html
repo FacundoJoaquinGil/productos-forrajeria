@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, viewport-fit=cover"
+  >
+
+  <title>Productos de Forrajería · Familia Gil</title>
+
+  <link
+    rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌾</text></svg>"
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Archivo:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <h1 class="brand">Productos de Forrajería</h1>
+      <p class="brand-sub">Familia Gil</p>
+    </div>
+
+    <div class="search-wrap">
+      <svg
+        class="search-icon"
+        viewBox="0 0 24 24"
+        fill="none"
+        aria-hidden="true"
+      >
+        <circle
+          cx="11"
+          cy="11"
+          r="7"
+          stroke="currentColor"
+          stroke-width="2"
+        />
+
+        <path
+          d="M20 20L16.5 16.5"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+      </svg>
+
+      <input
+        id="search"
+        type="text"
+        inputmode="search"
+        autocomplete="off"
+        placeholder="Buscar producto..."
+        aria-label="Buscar producto"
+      >
+
+      <button
+        id="clear-search"
+        class="clear-btn"
+        type="button"
+        aria-label="Limpiar búsqueda"
+        hidden
+      >
+        ✕
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <div class="list-head" role="row">
+      <span class="col-cat">Categoría</span>
+      <span class="col-name">Producto</span>
+      <span class="col-price">Precio</span>
+    </div>
+
+    <ul id="list" class="list" role="list"></ul>
+
+    <p id="empty" class="empty" hidden>
+      No encontramos ningún producto con esa búsqueda.<br>
+      Probá con otra palabra.
+    </p>
+
+    <p id="loading" class="loading">
+      Cargando productos…
+    </p>
+  </main>
+
+  <footer class="footer">
+    <span id="count"></span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
