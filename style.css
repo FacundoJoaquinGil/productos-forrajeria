@@ -175,35 +175,77 @@ main {
 
 .row {
   display: grid;
-  grid-template-columns: 1fr auto;
+
+  grid-template-columns: minmax(0, 1fr) auto;
+
   grid-template-areas:
-    "cat   price"
-    "name  name";
-  gap: 2px 12px;
-  align-items: baseline;
+    "cat price"
+    "name price";
+
+  column-gap: 16px;
+  row-gap: 6px;
+
+  align-items: start;
+
   padding: 14px;
+
   border-bottom: 1px solid var(--line-soft);
 }
 
+/* CATEGORÍA */
 .row .cat {
   grid-area: cat;
-  font-size: 0.78rem;
+
+  /* Antes: 0.78rem */
+  font-size: 0.9rem;
+
   font-weight: 600;
   color: var(--moss-dark);
+
+  /* Mayor separación entre palabras */
+  word-spacing: 2px;
+
+  /* Ayuda a que el texto respire */
+  line-height: 1.35;
 }
 
+/* PRODUCTO */
 .row .name {
   grid-area: name;
+
   font-size: 1.02rem;
   font-weight: 500;
+
+  /* Mayor separación entre palabras */
+  word-spacing: 2px;
+
+  line-height: 1.4;
+
+  /*
+    Importante:
+    permite que el texto se reduzca dentro del grid
+    y pase a la línea siguiente.
+  */
+  min-width: 0;
+
+  white-space: normal;
+
+  overflow-wrap: break-word;
+  word-break: normal;
 }
 
+/* PRECIO */
 .row .price {
   grid-area: price;
+
   font-weight: 700;
   color: var(--wheat);
+
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
+
+  /* Centra el precio respecto a categoría + producto */
+  align-self: center;
 }
 
 mark {
@@ -232,29 +274,68 @@ mark {
 
 /* ---------- Desktop / wide screens: real table layout ---------- */
 
+/* ---------- Desktop / wide screens ---------- */
+
 @media (min-width: 640px) {
+
   .list-head {
     display: grid;
-    grid-template-columns: 180px 1fr auto;
-    gap: 12px;
+
+    /* Categoria | Producto | Precio */
+    grid-template-columns: 180px minmax(0, 1fr) auto;
+
+    gap: 16px;
   }
-  .list-head .col-price { text-align: right; }
+
+  .list-head .col-price {
+    text-align: right;
+  }
 
   .row {
-    grid-template-columns: 180px 1fr auto;
-    grid-template-areas: "cat name price";
+    grid-template-columns: 180px minmax(0, 1fr) auto;
+
+    grid-template-areas:
+      "cat name price";
+
     align-items: center;
+
     padding: 13px 14px;
+
+    column-gap: 16px;
   }
+
   .row .cat {
-    font-size: 0.8rem;
+    /* Antes estaba en 0.8rem */
+    font-size: 0.9rem;
+
+    word-spacing: 2px;
+
+    line-height: 1.35;
   }
+
+  .row .name {
+    font-size: 1.02rem;
+
+    word-spacing: 2px;
+
+    line-height: 1.4;
+
+    min-width: 0;
+
+    white-space: normal;
+
+    overflow-wrap: break-word;
+  }
+
   .row .price {
     text-align: right;
-    font-size: 1.02rem;
-  }
-}
 
-@media (min-width: 640px) {
-  .row:hover { background: var(--line-soft); }
+    font-size: 1.02rem;
+
+    white-space: nowrap;
+  }
+
+  .row:hover {
+    background: var(--line-soft);
+  }
 }

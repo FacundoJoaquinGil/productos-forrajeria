@@ -1,232 +1,284 @@
 [
-{
-    "categoria": "Perros Adultos",
+  {
+    "categoria": "Perro Adulto",
+    "producto": "Argento Mordida Pequeña x15Kg (Alimento Premium)",
+    "precio": "28000",
+    "active": true
+  },
+  {
+    "categoria": "Perro Adulto",
+    "producto": "Gaucho Mordida Pequeña x15Kg",
+    "precio": "21000",
+    "active": true
+  },
+  {
+    "categoria": "Perro Adulto",
     "producto": "Agrocam x15Kg",
-    "precio": 16000
+    "precio": "16000",
+    "active": true
   },
   {
-    "categoria": "Perros Adultos",
+    "categoria": "Perro Adulto",
     "producto": "Agrocam x20Kg",
-    "precio": 21000
+    "precio": "21000",
+    "active": true
   },
   {
-    "categoria": "Perros Adultos",
+    "categoria": "Perro Adulto",
     "producto": "Belcan x20Kg",
-    "precio": 36000
+    "precio": "36000",
+    "active": true
   },
   {
-    "categoria": "Perros Adultos",
-    "producto": "Manada x8Kg",
-    "precio": 10000
+    "categoria": "Perro Adulto",
+    "producto": "Manada x8kg",
+    "precio": "10000",
+    "active": true
   },
   {
-    "categoria": "Perros Adultos",
-    "producto": "Matute x15Kg",
-    "precio": 10000
-  },
-  {
-    "categoria": "Perros Adultos",
-    "producto": "Matute x20Kg",
-    "precio": 10000
-  },
-  {
-    "categoria": "Perros Adultos",
+    "categoria": "Perro Adulto",
     "producto": "Sabrosito x20Kg",
-    "precio": 31000
+    "precio": "31000",
+    "active": true
   },
   {
-    "categoria": "Cachorros",
+    "categoria": "Perros Adulto",
+    "producto": "Valiant x21Kg",
+    "precio": "31000",
+    "active": true
+  },
+  {
+    "categoria": "Cachorro",
     "producto": "Advance x8Kg",
-    "precio": 32000
+    "precio": "32000",
+    "active": true
   },
   {
-    "categoria": "Cachorros",
-    "producto": "Belcan x15Kg",
-    "precio": 35000
+    "categoria": "Cachorro",
+    "producto": "Belcan x15kg",
+    "precio": "33000",
+    "active": true
   },
   {
-    "categoria": "Cachorros",
+    "categoria": "Cachorro",
     "producto": "Gran Campeon x10Kg",
-    "precio": 24000
+    "precio": "24000",
+    "active": true
   },
   {
-    "categoria": "Cachorros",
-    "producto": "Gron pastor x10Kg",
-    "precio": 24000
+    "categoria": "Cachorro",
+    "producto": "Gran pastor x10Kg",
+    "precio": "24000",
+    "active": true
   },
   {
-    "categoria": "Cachorros",
+    "categoria": "Cachorro",
     "producto": "Sabrosito x10Kg",
-    "precio": 22000
-  },
-  {
-    "categoria": "Alimento para Gato",
-    "producto": "Belcan x10Kg",
-    "precio": 22000
+    "precio": "24000",
+    "active": true
   },
   {
     "categoria": "Alimento para Gato",
     "producto": "Gran Persa x10Kg",
-    "precio": 21000
+    "precio": "21000",
+    "active": true
   },
   {
     "categoria": "Alimento para Gato",
     "producto": "Guardian x10Kg",
-    "precio": 22000
+    "precio": "22000",
+    "active": true
   },
   {
     "categoria": "Alimento para Gato",
-    "producto": "Nutribon xQ x8Kg",
-    "precio": 29000
+    "producto": "Nutribon x8Kg",
+    "precio": "29000",
+    "active": true
+  },
+  {
+    "categoria": "Alimento para Gato",
+    "producto": "Sabrosito Pescado x11Kg",
+    "precio": "26000",
+    "active": true
+  },
+  {
+    "categoria": "Alimento para Gato",
+    "producto": "Sabrosito Mix x11Kg",
+    "precio": "26000",
+    "active": true
   },
   {
     "categoria": "Alimento para Gato",
     "producto": "Suertudo x10Kg",
-    "precio": 21000
+    "precio": "21000",
+    "active": true
   },
   {
     "categoria": "Alimento para Gato",
     "producto": "Vagoneta x10Kg",
-    "precio": 24000
+    "precio": "24000",
+    "active": true
   },
   {
     "categoria": "Mercaderia",
-    "producto": "Aceite x4 1/2",
-    "precio": 40000
+    "producto": "Aceite 4,5L",
+    "precio": "10000",
+    "active": true
   },
   {
     "categoria": "Mercaderia",
-    "producto": "Aceite x900 caja de 12",
-    "precio": 30000
+    "producto": "Aceite 900ml caja x12",
+    "precio": "30000",
+    "active": true
   },
   {
     "categoria": "Mercaderia",
-    "producto": "Agua Mineral x6L",
-    "precio": 2000
+    "producto": "Agua Mineral 6L",
+    "precio": "2000",
+    "active": true
   },
   {
     "categoria": "Mercaderia",
-    "producto": "Arbeja fardo",
-    "precio": 6000
+    "producto": "Arbeja fardo x12",
+    "precio": "6000",
+    "active": true
   },
   {
     "categoria": "Mercaderia",
     "producto": "Arroz carogram",
-    "precio": 6500
+    "precio": "6500",
+    "active": true
   },
   {
     "categoria": "Mercaderia",
-    "producto": "Arroz molido",
-    "precio": 7000
+    "producto": "Arroz noble",
+    "precio": "7000",
+    "active": true
   },
   {
     "categoria": "Mercaderia",
     "producto": "Arroz dos Chinos",
-    "precio": 6000
+    "precio": "6000",
+    "active": true
   },
   {
     "categoria": "Mercaderia",
     "producto": "Azucar",
-    "precio": 10500
+    "precio": "10500",
+    "active": true
   },
   {
     "categoria": "Mercaderia",
-    "producto": "Higienico Campanita fardo de 12 paq x4 rollos",
-    "precio": 13000
+    "producto": "Higienico CAMPANITA fardo 12 paq x4 rollos",
+    "precio": "13000",
+    "active": true
   },
   {
     "categoria": "Mercaderia",
-    "producto": "Higieroco x30kollos",
-    "precio": 6000
+    "producto": "Higienico x30 rollos",
+    "precio": "6000",
+    "active": true
   },
   {
     "categoria": "Mercaderia",
     "producto": "Pan Rallado x25Kg",
-    "precio": 34000
+    "precio": "34000",
+    "active": true
   },
   {
     "categoria": "Mercaderia",
-    "producto": "Papel Higienico Morita fardo x12 paq de 4 rollos",
-    "precio": 34000
+    "producto": "Pure de tomate fardo x12",
+    "precio": "8500",
+    "active": true
   },
   {
     "categoria": "Mercaderia",
-    "producto": "Pure de tomate fardo",
-    "precio": 8000
-  },
-  {
-    "categoria": "Mercaderia",
-    "producto": "Repelente (c/u)",
-    "precio": 4000
+    "producto": "Repelente c/u",
+    "precio": "4000",
+    "active": true
   },
   {
     "categoria": "Mercaderia",
     "producto": "Repelente fardo x12",
-    "precio": 42000
+    "precio": "42000",
+    "active": true
   },
   {
     "categoria": "Mercaderia",
-    "producto": "Vinagre Fardo x6 1L",
-    "precio": 6500
+    "producto": "Vinagre x2 4,5L",
+    "precio": "9500",
+    "active": true
   },
   {
     "categoria": "Mercaderia",
-    "producto": "Servilleta Suapel fardo de 8 paq x4 rollos",
-    "precio": 9500
+    "producto": "Viragre Fardo x6 1L",
+    "precio": "6500",
+    "active": true
   },
   {
     "categoria": "Mercaderia",
-    "producto": "Servilleta fardo x8 rollos",
-    "precio": 12000
-  },
-  {
-    "categoria": "Perros Adultos",
-    "producto": "Valiant x21Kg",
-    "precio": 31000
+    "producto": "servilleta Suapel fardo de 8 paq x4 Rollos",
+    "precio": "9500",
+    "active": true
   },
   {
     "categoria": "Mercaderia",
-    "producto": "Escobillon (c/u)",
-    "precio": 4000
+    "producto": "servilleta fardo x8 rollos",
+    "precio": "12000",
+    "active": true
   },
   {
     "categoria": "Mercaderia",
-    "producto": "Escobillon x3",
-    "precio": 11500
+    "producto": "Fardo de harina Graciela Real tres ceros",
+    "precio": "9500",
+    "active": true
   },
   {
     "categoria": "Mercaderia",
-    "producto": "Papas Snacko x500 gramos",
-    "precio": 8000
+    "producto": "Fardo de harina Graciela Real cuatro ceros",
+    "precio": "11500",
+    "active": true
   },
   {
     "categoria": "Mercaderia",
-    "producto": "Piedra sanitaria para gato x20Kg",
-    "precio": 11000
+    "producto": "Escobillon c/u",
+    "precio": "4000",
+    "active": true
+  },
+  {
+    "categoria": "Mercaderia",
+    "producto": "Papas Snacko 500g",
+    "precio": "8000",
+    "active": true
   },
   {
     "categoria": "Mercaderia",
     "producto": "Servilletas Sol Mayor fardo de 12 paquetes de 3 rollos",
-    "precio": 13000
+    "precio": "13000",
+    "active": true
   },
   {
     "categoria": "Mercaderia",
     "producto": "Papas Facu x1Kg",
-    "precio": 17000
+    "precio": "17000",
+    "active": true
   },
   {
     "categoria": "Mercaderia",
-    "producto": "Arroz Noble fardo",
-    "precio": 70000
+    "producto": "12 Trapos de Piso",
+    "precio": "10000",
+    "active": true
   },
   {
     "categoria": "Mercaderia",
-    "producto": "Trapos de piso x12",
-    "precio": 10000
+    "producto": "Arroz Noble Fardo",
+    "precio": "7000",
+    "active": true
   },
   {
     "categoria": "Mercaderia",
     "producto": "Piedra sanitaria x10Kg",
-    "precio": 5500
+    "precio": "5500",
+    "active": true
   }
 ]
