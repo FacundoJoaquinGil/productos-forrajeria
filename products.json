@@ -139,8 +139,8 @@
   },
   {
     "categoria": "Mercaderia",
-    "producto": "Arbeja fardo x12",
-    "precio": "6000",
+    "producto": "Arbeja Sabores del Valle fardo x12",
+    "precio": "7000",
     "active": true
   },
   {
@@ -279,6 +279,25 @@
     "categoria": "Mercaderia",
     "producto": "Piedra sanitaria x10Kg",
     "precio": "5500",
+    "active": true
+  },
+  {
+    "categoria": "Mercaderia",
+    "producto": "Huevos Chicos",
+    "precio": "6000",
+    "active": true
+  }
+,
+  {
+    "categoria": "Mercaderia",
+    "producto": "Huevos Medianos",
+    "precio": "6500",
+    "active": true
+  },
+  {
+    "categoria": "Mercaderia",
+    "producto": "Huevos Grandes",
+    "precio": "7000",
     "active": true
   }
 ]
