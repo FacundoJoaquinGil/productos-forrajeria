@@ -163,7 +163,7 @@
   },
   {
     "categoria": "Mercaderia",
-    "producto": "Azucar",
+    "producto": "Azucar Fardo",
     "precio": "10500",
     "active": true
   },
@@ -248,7 +248,13 @@
   {
     "categoria": "Mercaderia",
     "producto": "Papas Snacko 500g",
-    "precio": "8000",
+    "precio": "8500",
+    "active": true
+  },
+  {
+    "categoria": "Mercaderia",
+    "producto": "Papas Snacko 800g",
+    "precio": "13000",
     "active": true
   },
   {
