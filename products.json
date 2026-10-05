@@ -8,7 +8,7 @@
   {
     "categoria": "Perro Adulto",
     "producto": "Gaucho Mordida Pequeña x15Kg",
-    "precio": "21000",
+    "precio": "22000",
     "active": true
   },
   {
@@ -304,6 +304,18 @@
     "categoria": "Mercaderia",
     "producto": "Huevos Grandes",
     "precio": "7000",
+    "active": true
+  },
+  {
+    "categoria": "Mercaderia",
+    "producto": "Bolsa para Residuos x10 unidades de 60 x 90",
+    "precio": "1000",
+    "active": true
+  },
+  {
+    "categoria": "Mercaderia",
+    "producto": "Encendedor Chispero para Cocina",
+    "precio": "2000",
     "active": true
   }
 ]
