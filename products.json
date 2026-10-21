@@ -151,12 +151,6 @@
   },
   {
     "categoria": "Mercaderia",
-    "producto": "Arroz noble",
-    "precio": "7500",
-    "active": true
-  },
-  {
-    "categoria": "Mercaderia",
     "producto": "Arroz dos Chinos",
     "precio": "6000",
     "active": true
@@ -278,7 +272,7 @@
   {
     "categoria": "Mercaderia",
     "producto": "Arroz Noble Fardo",
-    "precio": "7000",
+    "precio": "7500",
     "active": true
   },
   {
